@@ -2,13 +2,13 @@ package traore.Exercice_LSP;
 
 /**
  * 
- * Classe Robot1 qui herite de la methode DeplacementRobot
+ * Classe DeplacementRobot qui herite de la classe Robot
  *
  */
 
-public class Robot1 extends DeplacementRobot {
+public class DeplacementRobot extends Robot {
 	/**
-	 * Méthode tourne() qui permet au robot de changer de direction
+	 * Méthode tourne() qui fait 1/4 de tour
 	 */
 	public void tourne() {}
 	
@@ -17,5 +17,4 @@ public class Robot1 extends DeplacementRobot {
 	 *  en plus ajoutant le nombre de pas qu'il a eu a effectué
 	 */
 	public void avance() {}
-
 }

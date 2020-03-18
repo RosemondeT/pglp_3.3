@@ -1,23 +1,12 @@
 package traore.Exercice_LSP;
 
 /**
- * Classe Robot qui possède la méthode à savoir avance()
+ * Classe Robot qui possède deux attributs à savoir la direction et la position
  */
-public class Robot {
-	protected int position;
-	protected int pas;
+public abstract class Robot {
 	
-	public Robot(int position, int pas) {
-		this.position=position;
-		this.pas=pas;
-	}
+	protected Direction direction;
+	protected Position position;
 	
-	/**
-	 * Methode avance() qui augmente la position actuelle du robot
-	 *  en plus ajoutant le nombre de pas qu'il a eu a effectué
-	 */
-	
-	public void avance() {
-		this.position+=pas;
-	}
+
 }
