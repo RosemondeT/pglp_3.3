@@ -4,6 +4,11 @@ package traore.Exercice_LSP;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * 
+ * Classe de test
+ *
+ */
 
 public class RobotTest {
 	
